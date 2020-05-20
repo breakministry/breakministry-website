@@ -1,0 +1,39 @@
+
+/* @font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+}; */
+
+#navbarfonts li {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 14pt;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* #main-img {
+    object-fit: none; /* Do not scale the image */
+    /* object-position: center; /* Center the image within the element */
+    /* width: window.innerWindow;
+    max-height: window.innerHeight;
+    margin-bottom: 1rem;
+} */
+
+.headertext{
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: xx-large;
+}
+
+section:before {
+    height: 65px;
+    content: "";
+    display:block;
+}
+
+section:after {
+    height: 20px;
+    content: "";
+    display: block;
+}
