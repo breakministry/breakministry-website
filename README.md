@@ -36,10 +36,15 @@ Website Checklist/Features list:
         - [ ] Break Puns Galore
 
 
-
 Long Term Features:
 - [ ] Login for Admins and Break Members
     - [ ] Create/RSVP for events via website
     - [ ] See Upcoming Events
 - [ ] Break Database
 - [ ] Break Book Club
+
+Action Items:
+    - Ruan
+        - [ ] 404 Page
+        - [ ] Move About Us Page
+        - [ ] Look in to Flask functionality

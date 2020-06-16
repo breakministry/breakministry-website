@@ -27,8 +27,33 @@ function onload() {
 
 onload()
 
-d3.select(window).on("resize", handleResize);
+
 
 function handleResize() {
-
+    if (window.innerWidth > 1000) {
+        d3.select("#main-img")
+        attr("src", "static/images/adoration copy.jpg").
+        attr("width", window.innerWidth).
+        attr("height", window.innerHeight).
+        attr("class", "shadow-lg")
+    
+        d3.select("#scd-img").
+        attr("src", "static/images/breakchristmas.jpg").
+        attr("width", window.innerWidth).
+        attr("height", auto).
+        attr("class", "shadow-lg")
+        }
+        if (window.innerWidth < 1000) {
+        d3.select("#main-img").
+        attr("src", "static/images/adoration copy.jpg").
+        attr("width", window.innerWidth)
+    
+        d3.select("#scd-img").
+        attr("src", "static/images/breakchristmas.jpg").
+        attr("width", window.innerWidth).
+        attr("height", window.innerHeight).
+        attr("class", "shadow-lg")
+        }
 }
+
+d3.select(window).on("resize", handleResize);
