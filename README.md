@@ -32,7 +32,7 @@ Website Checklist/Features list:
     - [ ]
 
 - Other Pages:
-    - [ ] 404 Page
+    - [x] 404 Page
         - [ ] Break Puns Galore
 
 
