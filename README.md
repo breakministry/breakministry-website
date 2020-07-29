@@ -48,3 +48,15 @@ Action Items:
     - [x] 404 Page
     - [ ] Move About Us Page
     - [ ] Look in to Flask functionality
+
+- Kipsy
+    - [ ] Creating Footer
+    - [ ] Theme CSS changing
+
+- Jeff
+    - [ ] Setting up Media page
+    - [ ] Make Tech Covenant for Ruan
+
+
+- Rudy
+    - [ ] Putting photos into Google Photos folders
