@@ -44,7 +44,7 @@ Long Term Features:
 - [ ] Break Book Club
 
 Action Items:
-    - Ruan
-        - [ ] 404 Page
-        - [ ] Move About Us Page
-        - [ ] Look in to Flask functionality
+- Ruan
+    - [x] 404 Page
+    - [ ] Move About Us Page
+    - [ ] Look in to Flask functionality
