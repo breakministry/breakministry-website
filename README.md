@@ -12,7 +12,7 @@ Website Checklist/Features list:
     - [ ] Use Flask? (Dependent on other longer term features)
 
 - Sections for Navbar/Main Page
-    - [x] About (refer to Restructure Document)
+    - [x] About (refer to Restructure Document) (done)
     - [x] Services (refer to Restructure Document)
         - Reference to Recurring Events based on Service
         - Or link to said event that we have done in the past
@@ -29,7 +29,6 @@ Website Checklist/Features list:
         - [ ] How minimal do we want to be?
     - [ ] Easy to Navigate
     - [ ] Has functionality in place for short and long term needs
-    - [ ]
 
 - Other Pages:
     - [x] 404 Page
@@ -45,18 +44,18 @@ Long Term Features:
 
 Action Items:
 - Ruan
-    - [x] 404 Page
-    - [ ] Move About Us Page
     - [ ] Look in to Flask functionality
+    - [ ] Making hover/popup for About Page
 
 - Kipsy
     - [ ] Creating Footer
     - [ ] Theme CSS changing
 
 - Jeff
-    - [ ] Setting up Media page
-    - [ ] Make Tech Covenant for Ruan
+    - [ ] Finish up Media page
+    - [ ] Dark mode?
+    - [ ] Make Tech Covenant
 
 
 - Rudy
-    - [ ] Putting photos into Google Photos folders
+    - [ ] Ask Carmela about designs for the homepage
