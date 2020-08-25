@@ -46,11 +46,38 @@ hr {
 }
 /* End of image grid style */
 
+/* Start of Dark Mode CSS */
+/* Body CSS */
+.lightswitch{
+    background: #fff;
+    color: black;
+}
+
+.darkswitch{
+    background: #292b2c;
+    color: #fff;
+}
+
+.lightimage{
+    src: local("static/images/switch.png");
+}
+
+.darkimage{
+    src: local("static/images/darkswitch.png");
+}
+/* Body CSS */
+
+
+/* End of Dark Mode CSS */
+
+
+/* Style for Header Texts (e.g. Titles, etc.) */
 .headertext{
     font-family: 'Source Sans Pro', 'sans-serif';
     font-size: xx-large;
 }
 
+/* USED TO LEAVE SPACE FOR MOVING BETWEEN SECTIONS BEGIN */
 section:before {
     height: 45px;
     content: "";
@@ -62,3 +89,4 @@ section:after {
     content: "";
     display: block;
 }
+/* USED TO LEAVE SPACE FOR MOVING BETWEEN SECTIONS END */
