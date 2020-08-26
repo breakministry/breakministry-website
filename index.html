@@ -17,9 +17,10 @@
 </head>
 
 <!-- Navbar Begins Here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
+<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
   <a class="navbar-brand" href="index.html"><img src="static/images/Logo and one line.png" alt="Break Ministry"
       width="200px"></a>
+  <img id="lightimage" src="static/images/switch.png" alt="dark mode" width="20" onclick="colorSwitch()">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -60,7 +61,7 @@
 </nav>
 <!-- Navbar Ends Here -->
 
-<body>
+<body class="lightswitch">
 
   <!-- Mission Container Starts Here -->
   <div id="main-img">
@@ -212,7 +213,6 @@
 
 
   <!-- JS for Bootstrap things -->
-  <script src="static/js/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -222,6 +222,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="static/js/index.js"></script>  
 </body>
 
 </html>
