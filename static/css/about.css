@@ -1,0 +1,74 @@
+/* Image Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 20px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%
+}
+
+@media screen and (max-width:800px) {
+    .column {
+        flex: 100%;
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 75%;
+    }
+}
+/* Image Grid */
+
+/* Overlay */
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 8px;
+    background-color: #808080
+}
+
+.image-container:hover .overlay {
+    opacity: .75;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* Overlay */
