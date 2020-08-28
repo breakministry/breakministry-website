@@ -6,7 +6,8 @@
 
 Website Checklist/Features list:
 - Functionality:
-    - [ ] Dark Mode toggle?
+    - [x] Dark Mode toggle?
+        - [ ] Change Menu Text/Logo
     - [ ] Map for Check in?
     - [ ] Something "Breaks" on the page Easter Egg? (Break Logo)
     - [ ] Use Flask? (Dependent on other longer term features)
@@ -39,23 +40,32 @@ Long Term Features:
 - [ ] Login for Admins and Break Members
     - [ ] Create/RSVP for events via website
     - [ ] See Upcoming Events
+- [ ] Instagram Feed via API?
 - [ ] Break Database
 - [ ] Break Book Club
 
 Action Items:
+- Carmela
+    - [ ] Create graphics for the home page/Apply page
 - Ruan
-    - [ ] Look in to Flask functionality
-    - [ ] Making hover/popup for About Page
+    - [x] Look in to Flask functionality
+    - [x] Making hover/popup for About Page
+    - [ ] Continue working on popup for About page
+    - [ ] Start setup for Flask
 
 - Kipsy
     - [ ] Creating Footer
     - [ ] Theme CSS changing
+    - [ ] Reach out for Testimonials
 
 - Jeff
     - [ ] Finish up Media page
-    - [ ] Dark mode?
-    - [ ] Make Tech Covenant
+    - [x] Dark mode?
+        - [ ] Change Menu Text/Logo
+        - [ ] Make True Black
+    - [x] Make Tech Covenant
+    - [ ] Work with Ruan for Flask setup
 
 
 - Rudy
-    - [ ] Ask Carmela about designs for the homepage
+    - [x] Ask Carmela about designs for the homepage
