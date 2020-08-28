@@ -68,4 +68,14 @@ section:after {
     content: "";
     display: block;
 }
+<<<<<<< Updated upstream
 /* USED TO LEAVE SPACE FOR MOVING BETWEEN SECTIONS END */
+=======
+
+/* Kipsy's ugly footer ;) */
+footer {
+    font-family: 'Helvetica Neue', 'sans-serif';
+    text-align: center;
+    font-size: 12pt;
+}
+>>>>>>> Stashed changes
