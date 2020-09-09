@@ -20,9 +20,9 @@ Website Checklist/Features list:
     - [x] Events
         - [x] Recurring Events (Check Google Calender)
         - [x] Flocknote Signup (grab from Break Events Info Group)
-    - [ ] Apply (Opens to Google Form page)
-    - [x] Contact Us Page?
-    - [ ] Media Page? (Old Photos, Videos, etc.)
+    - [x] Apply (Opens to Google Form page)
+    - [ ] Contact Us Page?
+    - [x] Media Page? (Old Photos, Videos, etc.)
     - [x] Testimonials
     
 - Design Checklist
@@ -65,6 +65,7 @@ Action Items:
         - [ ] Make True Black
     - [x] Make Tech Covenant
     - [ ] Work with Ruan for Flask setup
+    - [ ] Add Contact Us Section
 
 
 - Rudy
