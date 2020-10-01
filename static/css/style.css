@@ -38,6 +38,11 @@ hr {
     color: #fff;
 }
 
+.notasdarkswitch{
+    background: #292b2c;
+    color: #fff;
+}
+
 .lightimage{
     src: local("static/images/switch.png");
 }
