@@ -7,7 +7,7 @@
 Website Checklist/Features list:
 - Functionality:
     - [x] Dark Mode toggle?
-        - [ ] Change Menu Text/Logo
+        - [x] Change Menu Text/Logo
     - [ ] Map for Check in?
     - [ ] Something "Breaks" on the page Easter Egg? (Break Logo)
     - [ ] Use Flask? (Dependent on other longer term features)
@@ -61,8 +61,8 @@ Action Items:
 - Jeff
     - [ ] Finish up Media page
     - [x] Dark mode?
-        - [ ] Change Menu Text/Logo
-        - [ ] Make True Black
+        - [x] Change Menu Text/Logo
+        - [x] Make True Black
     - [x] Make Tech Covenant
     - [ ] Work with Ruan for Flask setup
     - [ ] Add Contact Us Section
