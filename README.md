@@ -7,10 +7,14 @@
 Website Checklist/Features list:
 - Functionality:
     - [x] Dark Mode toggle?
-        - [ ] Change Menu Text/Logo
+        - [x] Change Menu Text/Logo
+        - [x] Make True Black
+    - [x] Make Tech Covenant
     - [ ] Map for Check in?
     - [ ] Something "Breaks" on the page Easter Egg? (Break Logo)
     - [ ] Use Flask? (Dependent on other longer term features)
+        - [x] Look in to Flask functionality
+    - [x] Making hover/popup for About Page
 
 - Sections for Navbar/Main Page
     - [x] About (refer to Restructure Document) (done)
@@ -20,10 +24,11 @@ Website Checklist/Features list:
     - [x] Events
         - [x] Recurring Events (Check Google Calender)
         - [x] Flocknote Signup (grab from Break Events Info Group)
-    - [ ] Apply (Opens to Google Form page)
-    - [x] Contact Us Page?
-    - [ ] Media Page? (Old Photos, Videos, etc.)
+    - [x] Apply (Opens to Google Form page)
+    - [ ] Contact Us Page?
+    - [x] Media Page? (Old Photos, Videos, etc.)
     - [x] Testimonials
+        - [x] Reach out for Testimonials
     
 - Design Checklist
     - [ ] Minimal
@@ -46,26 +51,27 @@ Long Term Features:
 
 Action Items:
 - Carmela
-    - [ ] Create graphics for the home page/Apply page
+    - [ ] Create graphics for the home page/Apply page (N)
 - Ruan
-    - [x] Look in to Flask functionality
-    - [x] Making hover/popup for About Page
     - [ ] Continue working on popup for About page
+        - Needs to be looked into a little more for dependency
     - [ ] Start setup for Flask
 
 - Kipsy
-    - [ ] Creating Footer
-    - [ ] Theme CSS changing
-    - [ ] Reach out for Testimonials
+    - [ ] Fix 404 page (N)
+        - [ ] Add a thing that tells the user to share it with Break on Facebook or Instagram for shoutout
+    - [ ] Talk to Ramil about Mission Statement
 
 - Jeff
-    - [ ] Finish up Media page
-    - [x] Dark mode?
-        - [ ] Change Menu Text/Logo
-        - [ ] Make True Black
-    - [x] Make Tech Covenant
+    - [ ] Finish up Media page (N)
     - [ ] Work with Ruan for Flask setup
-
+    - [ ] Add Contact Us Section (N)
+    - [ ] Add Covid-19 Page (N)
 
 - Rudy
-    - [x] Ask Carmela about designs for the homepage
+    - [ ] Covid-19 Blurb (N)
+    - [ ] Testimonials on Pictures (N)
+    - [ ] Send Photoshopped Covid Picture (N)
+    - [ ] Find out about Break Ministry Title (Inc? LLC?)
+
+    N = Necessary

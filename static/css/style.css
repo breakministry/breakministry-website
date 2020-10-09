@@ -33,6 +33,12 @@ hr {
 }
 
 .darkswitch{
+    /* background: #292b2c; */
+    background: #000000;
+    color: #fff;
+}
+
+.notasdarkswitch{
     background: #292b2c;
     color: #fff;
 }
@@ -41,9 +47,6 @@ hr {
     src: local("static/images/switch.png");
 }
 
-.darkimage{
-    src: local("static/images/darkswitch.png");
-}
 /* Body CSS */
 
 

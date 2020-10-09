@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Break Ministry(ies?)™</title>
+  <title>Break Ministry™</title>
   <!-- CSS Bootstrap and Local -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,9 +17,10 @@
 </head>
 
 <!-- Navbar Begins Here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
-  <a class="navbar-brand" href="index.html"><img src="static/images/Logo and one line.png" alt="Break Ministry"
+<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
+  <a class="navbar-brand" href="index.html"><img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry"
       width="200px"></a>
+  <img id="lightimage" src="static/images/switch.png" alt="dark mode" width="20" onclick="colorSwitch()">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -94,8 +95,28 @@
  <hr>
 
   <!-- Footer Begins Here -->
-  <footer>Break Ministry footer to come</footer>
-  <br>
+   <!-- TODO: add email if no contact us page, add clickable social icons, and add footer to all tabs -->
+   <footer id ="footer" class = "bg-light">
+    <a class="navbar-brand" href="index.html"><img id="breaklogo2" src="static/images/Logo and one line.png" alt="Break Ministry"
+      width="200px"></a>
+      <br>
+      Phone: <a href="tel:7323957556">(732) 395-7556</a> 
+      <br>
+      Email: <a href='mailto:breakministry@gmail.com'>breakministry@gmail.com</a>
+      <br>
+    <a class="navbar-brand" href="https://www.facebook.com/breakministry"><img src="static/images/Facebook.png" alt="Break's Facebook'"
+      width="20px"></a>
+    <a class="navbar-brand" href="https://www.instagram.com/breakministry"><img src="static/images/Insta.png" alt="Break's Insta'"
+      width="30px"></a>
+    <a class="navbar-brand" href="https://www.youtube.com/channel/UCr5m-h4cPq2_lqvrQIplOww"><img src="static/images/YouTube.png" alt="Break's YouTube'"
+      width="35px"></a>
+    <br><br><br>
+    <p style="font-style: italic;">
+      "As a body is one though it has many parts, and all the parts of the body, 
+      though many, are one body, so also Christ." 1 Corinthians 12:12
+      </p>   
+      <br><br>
+  </footer>
   <!-- Footer Ends Here -->
 
 
@@ -111,6 +132,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <script src="static/js/media.js"></script>  
+  <script src="static/js/darkmode.js"></script>
 </body>
 
 </html>

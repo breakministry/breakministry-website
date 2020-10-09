@@ -30,22 +30,3 @@ function handleResize() {
 }
 
 d3.select(window).on("resize", handleResize);
-
-
-var imagetoggle = false;
-function colorSwitch() {
-    console.log("This works?")
-    
-    var nav = document.getElementById("nav");
-    nav.classList.toggle("bg-dark")
-
-    var lightbody = document.body;
-    lightbody.classList.toggle("darkswitch");
-
-    if (imagetoggle === true) {
-        document.getElementById('lightimage').src  = 'static/images/switch.png';
-    } else {
-       document.getElementById('lightimage').src = 'static/images/darkswitch.png'; 
-    }
-    imagetoggle = !imagetoggle; 
-}
