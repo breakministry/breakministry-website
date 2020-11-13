@@ -29,19 +29,14 @@ Website Checklist/Features list:
     - [x] Media Page? (Old Photos, Videos, etc.)
     - [x] Testimonials
         - [x] Reach out for Testimonials
-    
-- Design Checklist
-    - [ ] Minimal
-        - [ ] How minimal do we want to be?
-    - [ ] Easy to Navigate
-    - [ ] Has functionality in place for short and long term needs
 
 - Other Pages:
-    - [x] 404 Page
-        - [ ] Break Puns Galore
+    - [x] 404 Page (with pun about Break)
 
 
 Long Term Features:
+- [ ] Implement Flask into Website 
+- [ ] Transfer Website to website hosting service
 - [ ] Login for Admins and Break Members
     - [ ] Create/RSVP for events via website
     - [ ] See Upcoming Events
@@ -51,27 +46,39 @@ Long Term Features:
 
 Action Items:
 - Carmela
-    - [ ] Create graphics for the home page/Apply page (N)
+    - [x] Create graphics for Home Page (N)
+    - [ ] Talk with Rudy about Apply Page Photo(s) for top of page (N)
+    - [ ] Learn some HTML, CSS stuff
 - Ruan
-    - [ ] Continue working on popup for About page
+    - [x] Create 404 Page
+    - [x] Move About Us Page
+    - [x] Make hover/popup for About Us Page Leadership Photos
+    - [ ] Continue working on bio popup on click for About Us Page Leadership
         - Needs to be looked into a little more for dependency
-    - [ ] Start setup for Flask
+    - [ ] Create Popup template for Covid19 stuff when opening home page/website first time (N)
 
 - Kipsy
-    - [ ] Fix 404 page (N)
-        - [ ] Add a thing that tells the user to share it with Break on Facebook or Instagram for shoutout
-    - [ ] Talk to Ramil about Mission Statement
+    - [x] Reach out for Testimonials
+    - [x] Fix 404 page (N)
+        - [x] Add a thing that tells the user to share it with Break on Facebook or Instagram for shoutout
+    - [x] Talk to Ramil/Mike about Mission Statement
+    - [ ] Help with Contact Us Section or Media Page
 
 - Jeff
+    - [x] Set Up Media Page
+    - [x] Implement Dark Mode
+        - [x] Menu/Logo Change
+        - [x] Make True Black
     - [ ] Finish up Media page (N)
-    - [ ] Work with Ruan for Flask setup
     - [ ] Add Contact Us Section (N)
-    - [ ] Add Covid-19 Page (N)
 
 - Rudy
-    - [ ] Covid-19 Blurb (N)
-    - [ ] Testimonials on Pictures (N)
-    - [ ] Send Photoshopped Covid Picture (N)
-    - [ ] Find out about Break Ministry Title (Inc? LLC?)
+    - [x] Ask Carmela about graphics for home page
+    - [x] Put Photos into Google Drive Folder for Media Page
+    - [x] Covid-19 Blurb (N)
+    - [x] Testimonials on Pictures (N)
+    - [x] Send Photoshopped Covid Picture (N)
+    - [x] Find out about Break Ministry Title (Inc? LLC?)
+    - [ ] Talk with Carmela about Apply Page Photo(s) for top of page (N)
 
     N = Necessary
