@@ -17,6 +17,7 @@ if (currentTheme == "dark") {
    d3.selectAll("#nav").classed("notasdarkswitch",true);
    d3.selectAll("#footer").classed("bg-light", false);
    d3.selectAll("#footer").classed("notasdarkswitch", true);
+   d3.selectAll(".modal-content").style("background","#292b2c");
 }
 
 
@@ -47,6 +48,7 @@ function colorSwitch() {
         d3.selectAll("#nav").classed("bg-light", true);
         d3.selectAll("#footer").classed("notasdarkswitch", false);
         d3.selectAll("#footer").classed("bg-light", true);
+        d3.selectAll(".modal-content").style("background","#fefefe");
         
     } else {
        lightbody.classList.toggle("darkswitch");
@@ -60,6 +62,7 @@ function colorSwitch() {
        d3.selectAll("#nav").classed("notasdarkswitch",true);
        d3.selectAll("#footer").classed("bg-light", false);
        d3.selectAll("#footer").classed("notasdarkswitch", true);
+       d3.selectAll(".modal-content").style("background","#292b2c");
     }
     console.log(currentTheme)
     console.log(imagetoggle)
