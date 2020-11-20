@@ -4,6 +4,9 @@ function onload() {
     attr("src", "static/images/adoration copy.jpg").
     attr("width", window.innerWidth).
     attr("class", "jesus shadow-lg")
+    // d3.select(".jesus").style("filter","blur(4px)")
+    // d3.select(".jesus").style("-webkit-filter","blur(4px)")
+    // d3.select(".jesus").style("filter","grayscale(50%)")
 
     d3.select("#scd-img").append("img").
     attr("src", "static/images/breakchristmas.jpg").

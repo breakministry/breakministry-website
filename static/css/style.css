@@ -47,6 +47,7 @@ hr {
     src: local("static/images/switch.png");
 }
 
+
 /* Body CSS */
 
 
@@ -86,6 +87,7 @@ footer {
 #mission{
     /* font-family: 'Source Sans Pro', 'sans-serif'; */
     font-size: 50px;
+    outline-color: black;
 }
 
 
@@ -93,7 +95,7 @@ footer {
 .modal {
     display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -126,6 +128,15 @@ footer {
     text-decoration: none;
     cursor: pointer;
   }
+
+  .top-left {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translate(0%, -50%);
+    padding-left: 25px;
+    z-index: 1;
+  }
   
 
 @media screen and (max-width: 600px) {
@@ -142,7 +153,7 @@ footer{
 .modal {
     display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -159,5 +170,14 @@ footer{
     border: 1px solid #888;
     width: 100%; /* Could be more or less, depending on screen size */
 }
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    transform: translate(0%, -50%);
+    padding-left: 25px;
+    z-index: 1;
+  }
 
 }
