@@ -43,6 +43,7 @@ Long Term Features:
 - [ ] Instagram Feed via API?
 - [ ] Break Database
 - [ ] Break Book Club
+- [ ] Create Form for Apply that doesn't rely on Google Forms
 
 Action Items:
 - Carmela
@@ -55,7 +56,7 @@ Action Items:
     - [x] Make hover/popup for About Us Page Leadership Photos
     - [ ] Continue working on bio popup on click for About Us Page Leadership
         - Needs to be looked into a little more for dependency
-    - [ ] Create Popup template for Covid19 stuff when opening home page/website first time (N)
+    - [x] Create Popup template for Covid19 stuff when opening home page/website first time (N)
 
 - Kipsy
     - [x] Reach out for Testimonials
@@ -69,7 +70,7 @@ Action Items:
     - [x] Implement Dark Mode
         - [x] Menu/Logo Change
         - [x] Make True Black
-    - [ ] Finish up Media page (N)
+    - [x] Finish up Media page (N)
     - [ ] Add Contact Us Section (N)
 
 - Rudy

@@ -8,10 +8,6 @@ function onload() {
     // d3.select(".jesus").style("-webkit-filter","blur(4px)")
     // d3.select(".jesus").style("filter","grayscale(50%)")
 
-    d3.select("#scd-img").append("img").
-    attr("src", "static/images/breakchristmas.jpg").
-    attr("width", window.innerWidth).
-    attr("class", "break shadow-lg")
 }
 
 onload()
@@ -39,11 +35,6 @@ function handleResize() {
     // if (window.innerWidth > 1000) {
     d3.select(".jesus").
     // attr("src", "static/images/adoration copy.jpg").
-    attr("width", window.innerWidth)//.
-
-
-    d3.select(".break").
-    // attr("src", "static/images/breakchristmas.jpg").
     attr("width", window.innerWidth)//.
  
 }
