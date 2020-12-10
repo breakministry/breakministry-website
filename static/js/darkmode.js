@@ -4,6 +4,7 @@
 
 var currentTheme = localStorage.getItem("theme");
 var lightbody = document.body;
+var switchcount = 0;
 
 if (currentTheme == "dark") {
    lightbody.classList.toggle("darkswitch");
@@ -34,7 +35,12 @@ function colorSwitch() {
     // lightfoot.classList.toggle("darkswitch");
 
     // var navlight = d3.selectAll("#nav");
-    
+    switchcount += 1;
+    console.log(switchcount);
+    if (switchcount == 5) {
+        window.location.href = "404.html";
+    }
+
 
     if (currentTheme == "dark") {
         lightbody.classList.toggle("darkswitch");
