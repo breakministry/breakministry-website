@@ -11,7 +11,7 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 function onload() {
 
     d3.select("#scd-img").append("img").
-    attr("src", "static/images/breakchristmas.jpg").
+    attr("src", "static/images/breakgroup.jpg").
     attr("width", window.innerWidth).
     attr("class", "break shadow-lg")
 

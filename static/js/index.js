@@ -8,6 +8,13 @@ function onload() {
     // d3.select(".jesus").style("-webkit-filter","blur(4px)")
     // d3.select(".jesus").style("filter","grayscale(50%)")
 
+// If testing to ensure functionality, open the console in your browser and enter localStorage.removeItem("noFirstVisit")
+    if (! localStorage.noFirstVisit) {
+      // Displays the box if it is there first visit
+      document.getElementById("myModal").style.display = 'initial';
+      // Sets variable so on refresh or next visit it won't show
+      localStorage.noFirstVisit = "1";
+    }
 }
 
 onload()
