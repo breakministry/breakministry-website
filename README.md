@@ -11,7 +11,7 @@ Website Checklist/Features list:
         - [x] Make True Black
     - [x] Make Tech Covenant
     - [ ] Map for Check in?
-    - [ ] Something "Breaks" on the page Easter Egg? (Break Logo)
+    - [x] Something "Breaks" on the page Easter Egg? (Break Logo)
     - [ ] Use Flask? (Dependent on other longer term features)
         - [x] Look in to Flask functionality
     - [x] Making hover/popup for About Page
