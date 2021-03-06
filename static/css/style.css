@@ -54,6 +54,10 @@ hr {
 /* End of Dark Mode CSS */
 
 
+.jesus {
+    max-height: 960px;
+}
+
 /* Style for Header Texts (e.g. Titles, etc.) */
 .headertext{
     font-family: 'Source Sans Pro', 'sans-serif';
