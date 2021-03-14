@@ -25,7 +25,7 @@ Website Checklist/Features list:
         - [x] Recurring Events (Check Google Calender)
         - [x] Flocknote Signup (grab from Break Events Info Group)
     - [x] Apply (Opens to Google Form page)
-    - [ ] Contact Us Page?
+    - [x] Contact Us Page?
     - [x] Media Page? (Old Photos, Videos, etc.)
     - [x] Testimonials
         - [x] Reach out for Testimonials
@@ -36,7 +36,7 @@ Website Checklist/Features list:
 
 Long Term Features:
 - [ ] Implement Flask into Website 
-- [ ] Transfer Website to website hosting service
+- [x] Transfer Website to website hosting service
 - [ ] Login for Admins and Break Members
     - [ ] Create/RSVP for events via website
     - [ ] See Upcoming Events
@@ -48,7 +48,7 @@ Long Term Features:
 Action Items:
 - Carmela
     - [x] Create graphics for Home Page (N)
-    - [ ] Talk with Rudy about Apply Page Photo(s) for top of page (N)
+    - [x] Talk with Rudy about Apply Page Photo(s) for top of page (N)
     - [ ] Learn some HTML, CSS stuff
 - Ruan
     - [x] Create 404 Page
@@ -71,7 +71,7 @@ Action Items:
         - [x] Menu/Logo Change
         - [x] Make True Black
     - [x] Finish up Media page (N)
-    - [ ] Add Contact Us Section (N)
+    - [x] Add Contact Us Section (N)
 
 - Rudy
     - [x] Ask Carmela about graphics for home page
@@ -80,6 +80,6 @@ Action Items:
     - [x] Testimonials on Pictures (N)
     - [x] Send Photoshopped Covid Picture (N)
     - [x] Find out about Break Ministry Title (Inc? LLC?)
-    - [ ] Talk with Carmela about Apply Page Photo(s) for top of page (N)
+    - [x] Talk with Carmela about Apply Page Photo(s) for top of page (N)
 
     N = Necessary

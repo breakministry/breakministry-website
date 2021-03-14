@@ -37,7 +37,7 @@ function colorSwitch() {
     // var navlight = d3.selectAll("#nav");
     switchcount += 1;
     console.log(switchcount);
-    if (switchcount == 5) {
+    if (switchcount == 3) {
         window.location.href = "404.html";
     }
 

@@ -2,12 +2,6 @@
 <html lang="en">
 
 <head>
-  <style>
-    .responsive {
-      max-width: 100%;
-      height: auto;
-    }
-    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Break Ministry, Inc.</title>
@@ -15,11 +9,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/about.css">
   <!-- Font API -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <!-- D3 JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TP1LSB8Z83"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -28,7 +23,6 @@
 
   gtag('config', 'G-TP1LSB8Z83');
 </script>
-<!-- Google Analytics Tracker End  -->
 </head>
 
 <!-- Navbar Begins Here -->
@@ -52,10 +46,10 @@
         <a class="nav-link" href="index.html#events">Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact Us</a>
+        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link" href="signup.html">Apply</a>
@@ -70,42 +64,48 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right bg-light" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Press</a>
-          <a class="dropdown-item" href="#">Photos</a>
-          <a class="dropdown-item" href="#">Donate(?)</a>
+          <a class="dropdown-item" href="#">Photos</a> -->
+          <!-- <a class="dropdown-item" href="#">Donate(?)</a> -->
         </div>
-      </li> -->
+      </li>
     </ul>
   </div>
 </nav>
 <!-- Navbar Ends Here -->
 
 <body>
-    <!-- 404 Container Starts Here -->
-    <section class="container" id="404">
-      <div class="row justify-content-center">
-        <div class="col-5 col-middle text-center">
-          <p class = "h1"> <strong> Oops. <br> You seem lost. </strong> </p>
-          <br>
-          <p class = "h3"> But like the prodigal son, you will be found. </p>
-          <br>
-          <p class = "h5"> Congrats on finding this meme! Share a screenshot of this page with one of our social media platforms below to get a shoutout! </p>
-          <br>
-          <button onclick="window.location.href='index.html'" type="button" class="btn text-white bg-dark" >
-            Go to homepage
-          </button>
-        </div>
-        <br>
-        <div class="col-5 col-middle text-center d-none d-md-block d-lg-block">
-          <img src="static/images/404.png" class="responsive" alt="404 error">
-        </div>
+  <!-- About Us Container Starts Here -->
+  <div id="main-img">  </div>
+  <br>
+  <section class="container" id="about">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <span class="headertext">Contact Us</span>
+        <form action="https://www.elformo.com/forms/91c3d247-b547-486b-90d3-bbc4254b4cc9" method="post" accept-charset="UTF-8" autocomplete="on">
+            <label for="email">Email Address:</label>
+            <input id="email" name="email" type="email" style="width: 300px" placeholder="YourEmail@YourEmail.com" required/>
+            <br>
+            <input id="elformo_honeypot" name="elformo_honeypot" style="display: none;"/>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" style="width: 300px;" placeholder="I want Break Ministry for my next event!" required>
+            <br>
+            <label for="comment">Email Body:</label>
+            <br>
+            <textarea id="comment" name="comment" style="width: 90%; height: 100px;" placeholder="I want to hire Break Ministry for my next event." required></textarea>
+            <br>
+            <input id="submit" name="submit" type="Submit" />
+          </form>
       </div>
-    </section>
-    <!-- 404 Container Ends Here -->
-
+    </div>
+  </section>
+  <!-- About Us Container Ends Here -->
   
-    <!-- Footer Begins Here -->
+  <hr>
+  
+
+  <!-- Footer Begins Here -->
    <!-- TODO: add email if no contact us page, add clickable social icons, and add footer to all tabs -->
-  <footer id ="footer" class = "bg-light">
+   <footer id ="footer" class = "bg-light">
     <a class="navbar-brand" href="index.html"><img id="breaklogo2" style="padding-top:50px;" src="static/images/Logo and one line.png" alt="Break Ministry"
       width="200px"></a>
       <br>
@@ -135,8 +135,9 @@
   <!-- Footer Ends Here -->
 
 
-    <!-- JS for Bootstrap things -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  <!-- JS for Bootstrap things -->
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -145,8 +146,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-  <script src="static/js/index.js"></script>  
-  <script src="static/js/darkmode.js"></script>
+   <script src="static/js/contact.js"></script> 
+   <script src="static/js/darkmode.js"></script>
 </body>
 
 </html>
