@@ -23,6 +23,11 @@ hr {
     box-shadow: 0 10px 10px -10px rgb(54, 52, 52);
     margin: -50px auto 10px; 
 }
+
+hr.signup {
+    width: 100%;
+    box-shadow: 0 5x 5px -5px rgb(54, 52, 52);
+}
 /* Section divider */
 
 /* Start of Dark Mode CSS */

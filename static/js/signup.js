@@ -19,3 +19,16 @@ function handleResize() {
 }
 
 d3.select(window).on("resize", handleResize);
+
+
+var option = d3.selectAll("#servicearea");
+option.on("change", updateInterface);
+
+function updateInterface() {
+
+    var picked = d3.selectAll("#servicearea").node().value()
+
+    if (picked == 'musicminister') {
+
+    }
+}

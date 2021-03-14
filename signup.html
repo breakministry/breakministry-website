@@ -79,7 +79,7 @@
         <!-- <img src="static/images/adoration copy.jpg" alt=""> is inserted via js file -->
     </div>
     <br>
-    <section class="container" id="apply">
+    <!-- <section class="container" id="apply">
         <div class="row justify-content-around">
             <div class="col applytoday">
                 <span class="headertext">Apply Today!</span>
@@ -88,10 +88,67 @@
                         width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
+    </section> -->
+
+    <section class="container" id="apply">
+      <div class="row justify-content-around">
+        <div class="col-10">
+          <p>Thank you for your interest in being a member of <strong>Break Ministry</strong>! The Church is in dire need of Youth and Young Adults 
+      who are on fire for serving! Please fill out the form below and please contact <strong>Ramil Caragay</strong> at <a href="mailto:rcaragay@breakministry.com">rcaragay@breakministry.com</a> if you have any questions.</p>
+        </div>
+
+    </div>
+    <div class="row justify-content-around">
+      <form action="https://www.elformo.com/forms/8a387c04-da73-4de3-a28e-66e684890d4b" method="post" accept-charset="UTF-8">
+        <fieldset style="border: 1px;">
+          <legend>Tell us about yourself:</legend>
+          <hr class="signup">
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname" id="firstname" placeholder="Break" autofocus required/>
+          <br>
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Member" required/>
+          <br>
+          <label for="email">Email Address:</label>
+          <input id="email" name="email" type="email" placeholder="Breakmember@gmail.com" style="width: 200px;" required/>
+          <br>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" placeholder="(201) 123-4567" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}" required/>
+          <br>
+          <label for="birthdate">Birth Date:</label>
+          <input type="date" name="birthdate" id="birthdate" required/>
+          <br>
+          <label for="city">City:</label>
+          <input type="text" name="city" id="city" required>
+          <br>
+          <label for="state">State:</label>
+          <input type="text" name="state" id="state" required>
+          <br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>How do you want to be involved in Break?</legend>
+          <hr class="signup">
+          <label for="servicearea">How would you like to serve?</label>
+          <select id="servicearea" name="servicearea" required>
+            <option value="musicminister" selected>Music Minister</option>
+            <option value="ministryvolunteer">Youth/Young Adult Minsitry Volunteer</option>
+            <option value="creativeintern">Creative Intern</option>
+            <option value="techintern">Tech Intern</option>
+          </select>
+          <br>
+
+          <br>
+        <textarea id="comment" name="comment"></textarea>
+        <input id="submit" name="submit" type="Submit" />
+      </fieldset>
+    </form>
+    </div>
     </section>
 
 
-    
+
+
   <!-- Footer Begins Here -->
    <!-- TODO: add email if no contact us page, add clickable social icons, and add footer to all tabs -->
   <footer id ="footer" class = "bg-light">
