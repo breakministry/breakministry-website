@@ -93,8 +93,8 @@
     <section class="container" id="apply">
       <div class="row justify-content-around">
         <div class="col-10">
-          <p>Thank you for your interest in being a member of <strong>Break Ministry</strong>! The Church is in dire need of Youth and Young Adults 
-      who are on fire for serving! Please fill out the form below and please contact <strong>Ramil Caragay</strong> at <a href="mailto:rcaragay@breakministry.com">rcaragay@breakministry.com</a> if you have any questions.</p>
+          <p class="headertext">Thank you for your interest in being a member of <strong>Break Ministry</strong>! The Church is in dire need of Youth and Young Adults 
+      who are on fire for serving! Please fill out the form below and please contact <strong><a href="mailto:rcaragay@breakministry.com">Ramil Caragay</a></strong> if you have any questions.</p>
         </div>
 
     </div>
@@ -132,16 +132,31 @@
           <label for="servicearea">How would you like to serve?</label>
           <select id="servicearea" name="servicearea" required>
             <option value="musicminister" selected>Music Minister</option>
-            <option value="ministryvolunteer">Youth/Young Adult Minsitry Volunteer</option>
+            <option value="ministryvolunteer">Youth/Young Adult Ministry Volunteer</option>
             <option value="creativeintern">Creative Intern</option>
             <option value="techintern">Tech Intern</option>
           </select>
           <br>
-
-          <br>
+      </fieldset>    
+      <fieldset id='music'>
+        <legend>Music Ministry</legend>
         <textarea id="comment" name="comment"></textarea>
-        <input id="submit" name="submit" type="Submit" />
       </fieldset>
+      <fieldset id="ministry">
+        <legend>Youth/Young Adult Ministry</legend>
+        <textarea id="comment" name="comment"></textarea>
+      </fieldset>
+      <fieldset id="creative">
+        <legend>Creative Intern</legend>
+        <textarea id="comment" name="comment"></textarea>
+      </fieldset>
+      <fieldset id="tech">
+        <legend>Tech Intern</legend>
+        <textarea id="comment" name="comment"></textarea>
+      </fieldset>
+          <br>
+        <input id="submit" name="submit" type="Submit" />
+      
     </form>
     </div>
     </section>
