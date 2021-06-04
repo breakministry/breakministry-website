@@ -99,6 +99,10 @@ footer {
     padding-left: 150px;
 }
 
+#breaklogo2 {
+    width: 200px;
+}
+
 #mission{
     /* font-family: 'Source Sans Pro', 'sans-serif'; */
     font-size: 50px;
@@ -245,7 +249,9 @@ footer {
 
     }
 
-    
+    #breaklogo2 {
+        width: 200px;
+    }
 
     
 }
@@ -332,6 +338,10 @@ button.submit {
   .headertext{
         font-family: 'Source Sans Pro', 'sans-serif';
         font-size: small;
+  }
+
+  #breaklogo2 {
+    width: 200px;
   }
 }
 
