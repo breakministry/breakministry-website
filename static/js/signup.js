@@ -1,7 +1,8 @@
 function onLoad(){
     d3.select("#main-img").append("img").
-    attr("src", "static/images/adoration copy.jpg").
+    attr("src", "static/images/apply.png").
     attr("width", window.innerWidth).
+    // attr("height", window.innerHeight).
     attr("class", "jesus shadow-lg")
    
     d3.select("#ministry").style("display","none")

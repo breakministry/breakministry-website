@@ -2,61 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Break Ministry, Inc.</title>
-    <!-- CSS Bootstrap and Local -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/style.css">
-    <!-- Font API -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <!-- D3 JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TP1LSB8Z83"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Break Ministry, Inc.</title>
+  <!-- CSS Bootstrap and Local -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- Font API -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- D3 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TP1LSB8Z83"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-TP1LSB8Z83');
-</script>
+    gtag('config', 'G-TP1LSB8Z83');
+  </script>
 </head>
 
 <!-- Navbar Begins Here -->
 <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
-    <a class="navbar-brand" href="index.html"><img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry"
-            width="200px"></a>
-    <img id="lightimage" src="static/images/switch.png" alt="dark mode" width="20" onclick="colorSwitch()">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto" id="navbarfonts">
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#events">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#testimonials">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="signup.html">Apply</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="media.html">Media</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
+  <a class="navbar-brand" href="index.html">
+    <img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry">
+  </a>
+  <img id="lightimage" src="static/images/switch.png" alt="dark mode" onclick="colorSwitch()">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto" id="navbarfonts">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#events">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">Apply</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="media.html">Media</a>
+      </li>
+      <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Media
@@ -67,19 +68,19 @@
                   <a class="dropdown-item" href="#">Donate(?)</a>
                 </div>
             </li> -->
-        </ul>
-    </div>
+    </ul>
+  </div>
 </nav>
 <!-- Navbar Ends Here -->
 
 <body>
 
-    <!-- About Us Container Starts Here -->
-    <div class="container" id="main-img" style="margin: 0px; padding: 0px;">
-        <!-- <img src="static/images/adoration copy.jpg" alt=""> is inserted via js file -->
-    </div>
-    <br>
-    <!-- <section class="container" id="apply">
+  <!-- About Us Container Starts Here -->
+  <div class="container" id="main-img" style="margin: 0px; padding: 0px;">
+    <!-- <img src="static/images/apply.png" alt=""> is inserted via js file -->
+  </div>
+  <br>
+  <!-- <section class="container" id="apply">
         <div class="row justify-content-around">
             <div class="col applytoday">
                 <span class="headertext">Apply Today!</span>
@@ -90,33 +91,38 @@
         </div>
     </section> -->
 
-    <section class="container" id="apply">
-      <div class="row justify-content-around">
-        <div class="col-10">
-          <p class="headertext">Thank you for your interest in being a member of <strong>Break Ministry</strong>! The Church is in dire need of Youth and Young Adults 
-      who are on fire for serving! Please fill out the form below and please contact <strong><a href="mailto:rcaragay@breakministry.com">Ramil Caragay</a></strong> if you have any questions.</p>
-        </div>
+  <section class="container" id="apply">
+    <div class="row justify-content-around">
+      <div class="col-10">
+        <p class="applytext">Thank you for your interest in being a member of <strong>Break Ministry</strong>! The
+          Church is in dire need of Youth and Young Adults
+          who are on fire for serving! Please fill out the form below and please contact <strong><a
+              href="mailto:rcaragay@breakministry.com">Ramil Caragay</a></strong> if you have any questions.</p>
+      </div>
 
     </div>
     <div class="row justify-content-around">
-      <form action="https://www.elformo.com/forms/8a387c04-da73-4de3-a28e-66e684890d4b" method="post" accept-charset="UTF-8">
+      <form action="https://www.elformo.com/forms/8a387c04-da73-4de3-a28e-66e684890d4b" method="post"
+        accept-charset="UTF-8">
         <fieldset style="border: 1px;">
           <legend>Tell us about yourself:</legend>
           <hr class="signup">
           <label for="firstname">First Name:</label>
-          <input type="text" name="firstname" id="firstname" placeholder="Break" autofocus required/>
+          <input type="text" name="firstname" id="firstname" placeholder="Break" autofocus required />
           <br>
           <label for="lastname">Last Name:</label>
-          <input type="text" name="lastname" id="lastname" placeholder="Member" required/>
+          <input type="text" name="lastname" id="lastname" placeholder="Member" required />
           <br>
           <label for="email">Email Address:</label>
-          <input id="email" name="email" type="email" placeholder="Breakmember@gmail.com" style="width: 200px;" required/>
+          <input id="email" name="email" type="email" placeholder="Breakmember@gmail.com" style="width: 200px;"
+            required />
           <br>
           <label for="phone">Phone Number:</label>
-          <input type="tel" name="phone" id="phone" placeholder="(201) 123-4567" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}" required/>
+          <input type="tel" name="phone" id="phone" placeholder="(201) 123-4567" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}"
+            required />
           <br>
           <label for="birthdate">Birth Date:</label>
-          <input type="date" name="birthdate" id="birthdate" required/>
+          <input type="date" name="birthdate" id="birthdate" required />
           <br>
           <label for="city">City:</label>
           <input type="text" name="city" id="city" required>
@@ -137,77 +143,78 @@
             <option value="techintern">Tech Intern</option>
           </select>
           <br>
-      </fieldset>    
-      <fieldset id='music'>
-        <legend>Music Ministry</legend>
-        <textarea id="comment" name="comment"></textarea>
-      </fieldset>
-      <fieldset id="ministry">
-        <legend>Youth/Young Adult Ministry</legend>
-        <textarea id="comment" name="comment"></textarea>
-      </fieldset>
-      <fieldset id="creative">
-        <legend>Creative Intern</legend>
-        <textarea id="comment" name="comment"></textarea>
-      </fieldset>
-      <fieldset id="tech">
-        <legend>Tech Intern</legend>
-        <textarea id="comment" name="comment"></textarea>
-      </fieldset>
-          <br>
+        </fieldset>
+        <fieldset id='music'>
+          <legend>Music Ministry</legend>
+          <textarea id="comment" name="comment"></textarea>
+        </fieldset>
+        <fieldset id="ministry">
+          <legend>Youth/Young Adult Ministry</legend>
+          <textarea id="comment" name="comment"></textarea>
+        </fieldset>
+        <fieldset id="creative">
+          <legend>Creative Intern</legend>
+          <textarea id="comment" name="comment"></textarea>
+        </fieldset>
+        <fieldset id="tech">
+          <legend>Tech Intern</legend>
+          <textarea id="comment" name="comment"></textarea>
+        </fieldset>
+        <br>
         <input id="submit" name="submit" type="Submit" />
-      
-    </form>
+
+      </form>
     </div>
-    </section>
+  </section>
 
 
 
 
   <!-- Footer Begins Here -->
-   <!-- TODO: add email if no contact us page, add clickable social icons, and add footer to all tabs -->
-  <footer id ="footer" class = "bg-light">
-    <a class="navbar-brand" href="index.html"><img id="breaklogo2" style="padding-top:50px;" src="static/images/Logo and one line.png" alt="Break Ministry"
-      width="200px"></a>
-      <br>
-      Phone: <a href="tel:7323957556">(732) 395-7556</a> 
-      <br>
-      Email: <a href='mailto:info@breakministry.com'>info@breakministry.com</a>
-      <br>
-    <a class="navbar-brand" href="https://www.facebook.com/breakministry"><img src="static/images/Facebook.png" alt="Break's Facebook'"
-      width="20px"></a>
-    <a class="navbar-brand" href="https://www.instagram.com/breakministry"><img src="static/images/Insta.png" alt="Break's Insta'"
-      width="30px"></a>
-    <a class="navbar-brand" href="https://www.youtube.com/channel/UCr5m-h4cPq2_lqvrQIplOww"><img src="static/images/YouTube.png" alt="Break's YouTube'"
-      width="35px"></a>
+  <!-- TODO: add email if no contact us page, add clickable social icons, and add footer to all tabs -->
+  <footer id="footer" class="bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img id="breaklogo2" style="padding-top:50px;" src="static/images/Logo and one line.png" alt="Break Ministry">
+    </a>
+    <br>
+    Phone: <a href="tel:7323957556">(732) 395-7556</a>
+    <br>
+    Email: <a href='mailto:info@breakministry.com'>info@breakministry.com</a>
+    <br>
+    <a class="navbar-brand" href="https://www.facebook.com/breakministry"><img src="static/images/Facebook.png"
+        alt="Break's Facebook'" width="20px"></a>
+    <a class="navbar-brand" href="https://www.instagram.com/breakministry"><img src="static/images/Insta.png"
+        alt="Break's Insta'" width="30px"></a>
+    <a class="navbar-brand" href="https://www.youtube.com/channel/UCr5m-h4cPq2_lqvrQIplOww"><img
+        src="static/images/YouTube.png" alt="Break's YouTube'" width="35px"></a>
     <br><br>
     <p>
 
-      The gifts he gave were that some would be apostles, some prophets, some evangelists, 
-      some pastors and teachers, to equip the saints for the work of ministry, for building up 
-      the body of Christ, until all of us come to the unity of the faith and of the knowledge of 
+      The gifts he gave were that some would be apostles, some prophets, some evangelists,
+      some pastors and teachers, to equip the saints for the work of ministry, for building up
+      the body of Christ, until all of us come to the unity of the faith and of the knowledge of
       the Son of God, to maturity, to the measure of the full stature of Christ. <br>
       - Ephesians 4:11-13
       <!-- "As a body is one though it has many parts, and all the parts of the body, 
       though many, are one body, so also Christ." 1 Corinthians 12:12 -->
-      </p>   
-      <br><br>
+    </p>
+    <br><br>
   </footer>
   <!-- Footer Ends Here -->
 
 
-    <!-- JS for Bootstrap things -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="static/js/signup.js"></script>
-    <script src="static/js/darkmode.js"></script>
+  <!-- JS for Bootstrap things -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="static/js/signup.js"></script>
+  <script src="static/js/darkmode.js"></script>
 </body>
 
 </html>

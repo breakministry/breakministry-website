@@ -27,9 +27,10 @@
 
 <!-- Navbar Begins Here -->
 <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
-  <a class="navbar-brand" href="index.html"><img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry"
-      width="200px"></a>
-  <img id="lightimage" src="static/images/switch.png" alt="dark mode" width="20" onclick="colorSwitch()">
+  <a class="navbar-brand" href="index.html">
+    <img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry">
+  </a>
+  <img id="lightimage" src="static/images/switch.png" alt="dark mode" onclick="colorSwitch()">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -152,7 +153,7 @@
     <div class="row justify-content-around">
       <div class="col-10">
         <span class="headertext">Our Services</span>
-        <p>
+        <p class='servicestext'>
           Break Ministry began as a ministry focused as a Catholic Music Ministry offering services to Catholic Churches
           and organizations. As the ministry has grown, our support of local Catholic Parishes has continued. In
           addition
@@ -171,8 +172,8 @@
           <li>Pilgrimages</li>
           <li>College Worship Nights</li>
         </ul>
-        <strong>Along with other services such as:</strong>
-        <ul> <br>
+          <strong>Along with other services such as:</strong>
+        <ul>
           <li>MC/Speakers and talk outlines</li>
           <li>Specific talk outlines for various events</li>
           <li>Event and Retreat outlines</li>
@@ -190,7 +191,7 @@
     </div>
   </section>
   <!-- Services Container Ends Here -->
-  <hr>
+  <hr class="other">
   <!-- Events Container Starts Here -->
   <section class="container" id="events">
     <div class="row justify-content-around">
@@ -247,21 +248,21 @@
     <br>
     <div class="row justify-content-around">
       <div class="col-10"></div>
-      <p class="h5">To stay up to date and find out about our latest public events, sign up here:</p>
+      <p class="h5" id="flocksign">To stay up to date and find out about our latest public events, sign up here:</p>
       <div id="events">
         <form method="post" action="https://app.flocknote.com/group/561346/addToGroupFromOutside" target="_blank">
           <input type="text" name="fname" placeholder="First Name" />
           <input type="text" name="lname" placeholder="Last Name" />
           <input type="email" name="email" placeholder="Email Address" />
           <input type="tel" name="mobile_phone" placeholder="Mobile Phone" />
-          <button type="submit" value="submit">Sign Me Up</button>
+          <button class="submit" type="submit" value="submit">Sign Me Up</button>
         </form>
       </div>
     </div>
     <br>
   </section>
   <!-- Events Section Ends Here -->
-<hr>
+<hr class="other">
   <!-- Testimonials Section Starts Here -->
   <section class="container" id="testimonials">
     
