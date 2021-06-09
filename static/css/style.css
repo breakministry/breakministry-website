@@ -132,6 +132,18 @@ footer {
     border: 1px solid #888;
     width: 40%; /* Could be more or less, depending on screen size */
   }
+
+  /* Announcement Banner */
+  #banner {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      padding-top: 10px;
+      padding-bottom: 1px;
+      background-color: #fefefe;
+      text-align: center;
+      font-family: 'Source Sans Pro', 'sans-serif';
+      font-size: medium;
+  }
   
   /* The Close Button */
   .close {
