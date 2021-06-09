@@ -140,11 +140,24 @@ footer {
       padding-top: 10px;
       padding-bottom: 1px;
       background-color: #fefefe;
+  }
+
+  #announcetitle {
+      margin: 0px;
+      text-align: center;
+      font-size: medium;
+      font-weight: bold;
+      text-decoration-line: underline;
       text-align: center;
       font-family: 'Source Sans Pro', 'sans-serif';
       font-size: medium;
   }
   
+  #announcetext {
+    text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: medium;
+  }
   /* The Close Button */
   .close {
     color: #aaa;
