@@ -181,6 +181,14 @@ footer {
     padding-left: 25px;
     z-index: 1;
   }
+
+  textarea {
+      width: 100%;
+  }
+
+  .smallertext{
+      font-size: smaller;
+  }
   
 
 @media screen and (max-width: 1000px) {

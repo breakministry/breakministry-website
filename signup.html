@@ -104,6 +104,7 @@
     <div class="row justify-content-around">
       <form action="https://www.elformo.com/forms/8a387c04-da73-4de3-a28e-66e684890d4b" method="post"
         accept-charset="UTF-8">
+        <!-- Information Section -->
         <fieldset style="border: 1px;">
           <legend>Tell us about yourself:</legend>
           <hr class="signup">
@@ -133,43 +134,167 @@
         </fieldset>
         <br>
         <fieldset>
-          <legend>How do you want to be involved in Break?</legend>
+          <legend>Where do you want to be involved in Break Ministry?</legend>
           <hr class="signup">
           <label for="servicearea">How would you like to serve?</label>
           <select id="servicearea" name="servicearea" required>
             <option value="musicminister" selected>Music Minister</option>
             <option value="ministryvolunteer">Youth/Young Adult Ministry Volunteer</option>
             <option value="creativeintern">Creative Intern</option>
-            <option value="techintern">Tech Intern</option>
+            <option value="techintern">Tech Contributor</option>
           </select>
           <br>
         </fieldset>
+
+        <!-- Music Ministry Section -->
         <fieldset id='music'>
           <legend>Music Ministry</legend>
-          <textarea id="comment" name="comment"></textarea>
-
+          <p> <strong>Thank you for your interest in serving with us by volunteering your
+              musical gifts! <br> Please answer the questions below so we have a better
+              understanding of how <br> you are willing to serve.</strong> </p>
           <!-- 
-            Question 1 What musical expertise are you willing to serve?: Only use Voice, Guitar, Piano, Bass, Piano and other as options
+            Question 1 What musical expertise are you willing to serve?: Only use Voice, Guitar, Piano, Bass, and other as options
             Question 2: Elaborate on your musical experience?: Open Ended (Maybe add question asking years of musical experience)
             Question 3: Do You have any other talents?: Open Ended
             Question 4: How did you hear about Break?: My Parish, A Friend/Family Member, Flyer, Google, Social Media, I saw them at an event!
             
            -->
-
-
+          <p>What areas in music do you have experience in?</p>
+          <input type="checkbox" name="mmvoice" id="mmvoice">
+          <label for="mmvoice"> Voice</label>
+          <br>
+          <input type="checkbox" name="mmguitar" id="mmguitar">
+          <label for="mmguitar"> Guitar</label>
+          <br>
+          <input type="checkbox" name="mmpiano" id="mmpiano">
+          <label for="mmpiano"> Piano</label>
+          <br>
+          <input type="checkbox" name="mmbass" id="mmbass">
+          <label for="mmbass"> Bass</label>
+          <br>
+          <input type="checkbox" name="mmperc" id="mmperc">
+          <label for="mmvoice"> Percussions</label>
+          <br>
+          <input type="checkbox" name="mmother" id="mmother">
+          <label for="mmother"> Other</label>
+          <input type="text" name="mmother" id="mmother">
+          <br>
+          <br>
+          <label for="mmexp">Elaborate on your Music experience:</label>
+          <p class="smallertext">How long have you played/sung? If you picked voice, what is your voice part?
+            Where have you used <br> your musical talents?
+            Do you have any prior music ministry experience?</p>
+          <textarea id="mmexp" name="mmexp"></textarea>
+          <br>
+          <br>
+          <label for="mmtalent">Do you have any other talents?</label>
+          <p class="smallertext">Do you have any other passions/gifts/talents that are not related to music ministry? If
+            so, please elaborate below.</p>
+          <textarea id="mmtalent" name="mmtalent"></textarea>
         </fieldset>
+
+        <!-- Youth/Young Adult Ministry Section -->
         <fieldset id="ministry">
           <legend>Youth/Young Adult Ministry</legend>
-          <textarea id="comment" name="comment"></textarea>
+          <p> <strong>Thank you for your interest in serving with us by volunteering your
+              gifts! <br> Please answer the questions below so we have a better
+              understanding of how <br> you are willing to serve.</strong> </p>
+          <p>What areas in Youth/Young Adult Ministry do you have experience in?</p>
+          <input type="checkbox" name="yyayouth" id="yyayouth">
+          <label for="yyayouth"> Youth Ministry</label>
+          <br>
+          <input type="checkbox" name="yyaadult" id="yyaadult">
+          <label for="yyaadult"> Young Adult Ministry</label>
+          <br>
+          <br>
+          <label for="yyaexp">Elaborate on your Youth/Young Adult experience:</label>
+          <p class="smallertext">How long have you served in Youth/Young Adult Ministry? Is there one that you prefer
+            over
+            <br> the other? If so, let us know here.</p>
+          <textarea id="yyaexp" name="yyaexp"></textarea>
+          <br>
+          <br>
+          <label for="yyatalent">Do you have any other talents?</label>
+          <p class="smallertext">Do you have any other passions/gifts/talents that are not related to youth/young adult ministry? If
+            so, please <br> elaborate below.</p>
+          <textarea id="yyatalent" name="yyatalent"></textarea>
         </fieldset>
+
+        <!-- Media Ministry Section -->
         <fieldset id="creative">
           <legend>Creative Intern</legend>
-          <textarea id="comment" name="comment"></textarea>
+          <p> <strong>Thank you for your interest in serving with us by volunteering your artistic talents!
+              <br> Please answer the questions below so we have a better understanding of how you
+              <br> are willing to serve.</strong> </p>
+          <!-- 
+              Question 1: What areas in media are you willing to serve?: Visual Media (Photo/Video), Creative Media (Photoshop/Illustrator, Photo Editing, Video Editing), Social Media Management (Interacting, Finding right hashtags, etc.)
+              Question 2: Elaborate on your media experience: Open Ended
+              Question 3: Do you have any other talents?: Open Ended
+              Question 4: How did you hear about Break?: My Parish, A Friend/Family Member, Flyer, Google, Social Media, I saw them at an event! 
+             -->
+          <p>What areas in media do you have experience in?</p>
+          <input type="checkbox" name="vmedia" id="vmedia">
+          <label for="vmedia"> Visual Media (Photography/Videography)</label>
+          <br>
+          <input type="checkbox" name="cmedia" id="cmedia">
+          <label for="cmedia"> Creative Media (Photoshop/Illustrator, Photo/Video Editing, etc.)</label>
+          <br>
+          <input type="checkbox" name="smedia" id="smedia">
+          <label for="smedia"> Social Media Management (Post Submission/Management,Online Interactions, etc.)</label>
+          <br>
+          <br>
+          <label for="mediaexp">Elaborate on your Media experience:</label>
+          <p class="smallertext">Please explain any and all experience you have in the areas above. If you have a portfolio or any 
+            works you <br>  would like to show us, include a link in the field below.</p>
+          <textarea id="mediaexp" name="mediaexp"></textarea>
+          <br>
+          <label for="mediatalent">Do you have any other talents?</label>
+          <p class="smallertext">Do you have any other passions/gifts/talents that are not related to media ministry? If
+            so, please elaborate below.</p>
+          <textarea id="mediatalent" name="mediatalent"></textarea>
         </fieldset>
+
+        <!-- Tech Contributor Section -->
         <fieldset id="tech">
-          <legend>Tech Intern</legend>
-          <textarea id="comment" name="comment"></textarea>
+          <legend>Tech Contributor</legend>
+          <p> <strong>Thank you for your interest in serving with us by volunteering your tech talents!
+            <br> Please answer the questions below so we have a better understanding of how you
+            <br> are willing to serve.</strong> </p>
+          <p>What areas in tech do you have experience in?</p>
+          <input type="checkbox" name="techprog" id="techprog">
+          <label for="techprog"> Programming (Software/Website Development, Automation, etc.)</label>
+          <br>
+          <input type="checkbox" name="techdb" id="techdb">
+          <label for="techdb"> Database Creation/Management (PostgreSQL, MongoDB, etc.)</label>
+          <br>
+          <input type="checkbox" name="techviz" id="techviz">
+          <label for="techviz"> Data Analysis/Visualization (Plotly/Dash, Matplotlib, D3.js, Tableau, PowerBI, etc.)</label>
+          <br>
+          <input type="checkbox" name="techother" id="techother">
+          <label for="techother"> Other</label>
+          <input type="text" name="techother" id="techother">
+          <br>
+          <br>
+          <label for="techexp">Elaborate on your Tech experience:</label>
+          <p class="smallertext">Please explain any and all experience you have in the areas above. If you have a portfolio or any 
+            works you <br>  would like to show us, include a link in the field below.</p>
+          <textarea id="techexp" name="techexp"></textarea>
+          <label for="techtal">Do you have any other talents?</label>
+          <p class="smallertext">Do you have any other passions/gifts/talents that are not related to tech? If
+            so, please elaborate below.</p>
+          <textarea id="techtal" name="techtal"></textarea>
         </fieldset>
+
+        <br>
+        <label for="hearsay">How did you hear about Break?</label>
+        <select id="hearsay" name="hearsay" required>
+          <option value="parish" selected>Parish</option>
+          <option value="familyfriend">A Friend/Family Member</option>
+          <option value="flyer">Flyer</option>
+          <option value="google">Google</option>
+          <option value="socialmedia">Social Media</option>
+          <option value="anevent">I saw them at an Event!</option>
+        </select>
         <br>
         <input id="submit" name="submit" type="Submit" />
 
