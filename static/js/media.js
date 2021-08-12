@@ -1,5 +1,5 @@
 function onload() {
-    // if (window.innerWidth > 1000) {
+
     d3.select("#main-img").append("img").
     attr("src", "static/images/breakperform.jpg").
     attr("width", window.innerWidth).
@@ -12,7 +12,6 @@ onload()
 
 function handleResize() { 
     d3.select(".break").
-    // attr("src", "static/images/breakchristmas.jpg").
     attr("width", window.innerWidth)//.
  
 }

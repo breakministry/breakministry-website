@@ -7,9 +7,6 @@ function onLoad(){
 }
 
 onLoad()
-// d3.select("iframe").select(".freebirdFormviewerViewCenteredContent").
-// attr("max-width","100%").
-// attr("width", "auto")
 
 function handleResize() {
     d3.select(".jesus").

@@ -1,12 +1,9 @@
 function onload() {
-    // if (window.innerWidth > 1000) {
+
     d3.select("#main-img").append("img").
     attr("src", "static/images/adoration copy.jpg").
     attr("width", window.innerWidth).
     attr("class", "jesus shadow-lg")
-    // d3.select(".jesus").style("filter","blur(4px)")
-    // d3.select(".jesus").style("-webkit-filter","blur(4px)")
-    // d3.select(".jesus").style("filter","grayscale(50%)")
 
 // If testing to ensure functionality, open the console in your browser and enter localStorage.removeItem("noFirstVisit")
     if (! localStorage.noFirstVisit) {
@@ -39,10 +36,9 @@ window.onclick = function(event) {
 
 function handleResize() {
 
-    // if (window.innerWidth > 1000) {
+
     d3.select(".jesus").
-    // attr("src", "static/images/adoration copy.jpg").
-    attr("width", window.innerWidth)//.
+    attr("width", window.innerWidth)
  
 }
 

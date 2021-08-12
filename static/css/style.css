@@ -58,6 +58,10 @@ hr.signup {
     width: 20px;
 }
 
+#formation{
+    font-size: x-large;
+    text-align: center;   
+}
 
 /* Body CSS */
 
@@ -228,7 +232,7 @@ footer {
     form {
         text-align: center;
     }
-    
+
     input {
         width: 75%;
     }
@@ -321,6 +325,11 @@ footer{
 
 form {
     text-align: center;
+}
+
+#formation{
+    font-size: medium;
+    text-align: center;   
 }
 
 input {
