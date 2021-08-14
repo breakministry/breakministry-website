@@ -1,3 +1,82 @@
+/* Fonts for Navbar */
+#navbarfonts li {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 14pt;
+}
+
+#breaklogo {
+    padding-right:0px;
+    width: 200px;
+}
+/* Fonts for Navbar */
+
+/* Used for scrolling on the webpage */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section divider */
+hr {
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 10px 10px -10px rgb(54, 52, 52);
+    margin: -50px auto 10px; 
+}
+
+hr.signup {
+    width: 100%;
+    box-shadow: 0 5x 5px -5px rgb(54, 52, 52);
+}
+/* Section divider */
+
+/* Start of Dark Mode CSS */
+/* Body CSS */
+.lightswitch{
+    background: #fff;
+    color: black;
+}
+
+.darkswitch{
+    /* background: #292b2c; */
+    background: #000000;
+    color: #fff;
+}
+
+.notasdarkswitch{
+    background: #292b2c;
+    color: #fff;
+}
+
+#lightimage{
+    /* src: local("static/images/switch.png"); */
+    width: 20px;
+}
+
+#formation{
+    font-size: x-large;
+    text-align: center;   
+}
+
+/* Body CSS */
+
+
+/* End of Dark Mode CSS */
+
+
+.jesus {
+    max-height: 960px;
+}
+
+/* Style for Header Texts (e.g. Titles, etc.) */
+p.headertext{
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: xx-large;
+}
+
 /* Image Grid */
 .row {
     display: flex;
@@ -55,7 +134,8 @@
     opacity: 0;
     transition: .5s ease;
     border-radius: 8px;
-    background-color: #808080
+    background-color: #808080;
+    opacity: .50;
 }
 
 .image-container:hover .overlay {
