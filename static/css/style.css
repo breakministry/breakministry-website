@@ -59,7 +59,7 @@ hr.signup {
 }
 
 #formation{
-    font-size: x-large;
+    font-size: medium;
     text-align: center;   
 }
 
@@ -374,7 +374,7 @@ button.submit {
 
     width: 300px;
 
-  };
+  }
 
   /* Style for Header Texts (e.g. Titles, etc.) */
   .headertext{
