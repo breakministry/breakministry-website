@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Break Ministry, Inc.
+  </title>
+  <!-- CSS Bootstrap and Local -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/linktree.css">
+  <!-- Font API -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- D3 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TP1LSB8Z83"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TP1LSB8Z83');
+</script>
+</head>
+
+<!-- Navbar Begins Here -->
+<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbarfonts">
+  <a class="navbar-brand" href="index.html">
+    <img id="breaklogo" src="static/images/Logo and one line.png" alt="Break Ministry">
+  </a>
+  <img id="lightimage" src="static/images/switch.png" alt="dark mode" onclick="colorSwitch()">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto" id="navbarfonts">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#events">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="media.html">Media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html"><strong>Apply</strong></a>
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Media
+        </a>
+        <div class="dropdown-menu dropdown-menu-right bg-light" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Press</a>
+          <a class="dropdown-item" href="#">Photos</a>
+          <a class="dropdown-item" href="#">Donate(?)</a>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+<!-- Navbar Ends Here -->
+
+<body class="lightswitch">
+
+  <!-- Events Container Starts Here -->
+  <section class="container" id="events">
+    <div class="row justify-content-around">
+      <div class="col-12">
+        <div class="content">
+
+              <p id="formation" style="border-style: solid; padding: 15px;"> 
+                  <a href="https://BreakMinistry.flocknote.com/BreakEventsInfo" target="_blank">Sign up for our flocknote to stay up to date with our latest events!</a> 
+                </p>
+
+              <p id="formation" style="border-style: solid; padding: 15px;">
+                  <a href="https://meet.google.com/any-xevf-mod" target="_blank">Pray with us! (Fridays at 8:30PM ET)</a> 
+              </p>
+              
+              <p id="formation" style="border-style: solid; padding: 15px;">
+                <a href="https://meet.google.com/gwf-yyuy-mcx" target="_blank">Women's Bible Study (Wednesdays at 7:45PM ET)</a> 
+              </p>
+
+              <p id="formation" style="border-style: solid; padding: 15px;">
+                <a href="https://meet.google.com/izq-ybas-fxv" target="_blank">Men's Bible Study (Tuesdays at 8:00PM ET)</a> 
+              </p>
+    </div>
+      </div>
+    </div>
+    <br>
+  </section>
+  <!-- Events Section Ends Here -->
+<!-- <hr class="other"> -->
+
+  <!-- Footer Begins Here -->
+  <footer id ="footer" class = "bg-light footer">
+    <a class="navbar-brand" href="index.html"><img id="breaklogo2" style="padding-top:50px;" src="static/images/Logo and one line.png" alt="Break Ministry"
+      width="200px"></a>
+      <br>
+      Phone: <a href="tel:7323957556">(732) 395-7556</a> 
+      <br>
+      Email: <a href='mailto:info@breakministry.com'>info@breakministry.com</a>
+      <br>
+    <a class="navbar-brand" href="https://www.facebook.com/breakministry"><img src="static/images/Facebook.png" alt="Break's Facebook'"
+      width="20px"></a>
+    <a class="navbar-brand" href="https://www.instagram.com/breakministry"><img src="static/images/Insta.png" alt="Break's Insta'"
+      width="30px"></a>
+    <a class="navbar-brand" href="https://www.youtube.com/channel/UCr5m-h4cPq2_lqvrQIplOww"><img src="static/images/YouTube.png" alt="Break's YouTube'"
+      width="35px"></a>
+    <br><br>
+    <!-- <p>
+      The gifts he gave were that some would be apostles, some prophets, some evangelists, 
+      some pastors and teachers, to equip the saints for the work of ministry, for building up 
+      the body of Christ, until all of us come to the unity of the faith and of the knowledge of 
+      the Son of God, to maturity, to the measure of the full stature of Christ. <br>
+      - Ephesians 4:11-13
+      </p>    -->
+      <!-- <br><br> -->
+  </footer>
+  <!-- Footer Ends Here -->
+
+
+  <!-- JS for Bootstrap things -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="static/js/darkmode.js"></script>
+</body>
+
+</html>

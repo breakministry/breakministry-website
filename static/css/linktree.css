@@ -1,0 +1,180 @@
+/* Fonts for Navbar */
+#navbarfonts li {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 14pt;
+}
+
+#breaklogo {
+    padding-right:0px;
+    width: 200px;
+}
+/* Fonts for Navbar */
+
+/* Used for scrolling on the webpage */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section divider */
+hr {
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 10px 10px -10px rgb(54, 52, 52);
+    margin: -50px auto 10px; 
+}
+
+/* Start of Dark Mode CSS */
+/* Body CSS */
+.lightswitch{
+    background: #fff;
+    color: black;
+}
+
+.darkswitch{
+    /* background: #292b2c; */
+    background: #000000;
+    color: #fff;
+}
+
+.notasdarkswitch{
+    background: #292b2c;
+    color: #fff;
+}
+
+#lightimage{
+    /* src: local("static/images/switch.png"); */
+    width: 20px;
+}
+
+#formation{
+    font-size: medium;
+    text-align: center;   
+}
+
+html, body {
+    height: 100%;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+  }
+.content {
+    flex: 1 0 auto;
+    padding-top: 33%;
+    padding-bottom: 33%;
+}
+
+/* Kipsy's ugly footer ;) */
+footer {
+    font-family: 'Helvetica Neue', 'sans-serif';
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic; 
+    padding-right: 150px; 
+    padding-left: 150px;
+}
+
+#breaklogo2 {
+    width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #breaklogo {
+        padding:0px;
+        width: 200px;
+    }
+
+    #lightimage {
+        padding: 0px;
+        width: 20px;
+    }
+
+    footer{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        transform: translate(0%, -50%);
+        padding-left: 25px;
+        z-index: 1;
+        }
+
+    .media{
+
+    width: 300px;
+
+    }
+
+    #breaklogo2 {
+        width: 200px;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        transform: translate(0%, -50%);
+        padding-left: 25px;
+        z-index: 1;
+      }
+    
+    #formation{
+        font-size: small;
+        text-align: center;   
+    }
+
+      .media{
+    
+        width: 300px;
+    
+      }
+
+      #breaklogo2 {
+        width: 200px;
+      }
+}
+
+@media screen and (max-width: 350px) {
+    #breaklogo {
+        padding-right:0px;
+        width: 165px;
+    }
+
+    #lightimage {
+        padding: 0px;
+        width: 15px;
+    }
+
+    footer{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #breaklogo2 {
+        width: 200px;
+    }
+
+    .media{
+        width: 300px;
+      };
+      
+      
+}
