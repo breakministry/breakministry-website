@@ -68,6 +68,10 @@ body {
     padding-bottom: 33%;
 }
 
+a {
+    color: black;
+}
+
 /* Kipsy's ugly footer ;) */
 footer {
     font-family: 'Helvetica Neue', 'sans-serif';
@@ -137,7 +141,7 @@ footer {
       }
     
     #formation{
-        font-size: small;
+        font-size: medium;
         text-align: center;   
     }
 

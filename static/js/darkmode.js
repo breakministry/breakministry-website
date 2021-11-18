@@ -57,7 +57,7 @@ function colorSwitch() {
         d3.selectAll("#footer").classed("bg-light", true);
         d3.selectAll(".modal-content").style("background","#fefefe");
         d3.selectAll('#banner').style('background','#fefefe')
-        
+        d3.selectAll('a').classed("text-white",false)
         
     } else {
        lightbody.classList.toggle("darkswitch");
@@ -73,7 +73,7 @@ function colorSwitch() {
        d3.selectAll("#footer").classed("notasdarkswitch", true);
        d3.selectAll(".modal-content").style("background","#292b2c");
        d3.selectAll('#banner').style('background','#292b2c');
-       
+       d3.selectAll('a').classed("text-white",true)
     }
     console.log(currentTheme)
     console.log(imagetoggle)
