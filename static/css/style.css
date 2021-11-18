@@ -79,6 +79,10 @@ span.headertext{
     font-size: xx-large;
 }
 
+.inputs {
+    width: 50px;
+}
+
 /* USED TO LEAVE SPACE FOR MOVING BETWEEN SECTIONS BEGIN */
 section:before {
     height: 45px;
@@ -187,7 +191,7 @@ footer {
   }
 
   textarea {
-      width: 100%;
+      width: 90%;
   }
 
   .smallertext{
@@ -234,7 +238,7 @@ footer {
     }
 
     input {
-        width: 75%;
+        width: 50%;
     }
 
     button.submit {
@@ -333,7 +337,7 @@ form {
 }
 
 input {
-    width: 75%;
+    width: 50%;
 }
 
 button.submit {
@@ -436,7 +440,7 @@ button.submit {
     }
 
     input {
-        width: 75%;
+        width: 50%;
     }
 
     button.submit {
