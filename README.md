@@ -4,6 +4,12 @@
 
 "By using modern advances in technology, an innovative approach to ministry, and the teachings of the Catholic Church, Break will support parishes, dioceses and all Catholic organizations in the mission of leading young people to a life changing encounter with Christ."
 
+
+New Things to add:
+- Add Break Promo Video https://youtu.be/OZx70Qq16mU
+- Donate button (Could link to Venmo?)
+
+
 Website Checklist/Features list:
 - Functionality:
     - [x] Dark Mode toggle?
