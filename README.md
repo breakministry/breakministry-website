@@ -1,6 +1,6 @@
 # Break Ministry Website™
 
-![Break Ministry](static/images/Logo_Icon_Frame.png)
+![Break Ministry](static/images/Short_White.png)
 
 "By using modern advances in technology, an innovative approach to ministry, and the teachings of the Catholic Church, Break will support parishes, dioceses and all Catholic organizations in the mission of leading young people to a life changing encounter with Christ."
 
